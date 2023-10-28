@@ -9,37 +9,8 @@
 #include <stdlib.h>
 
 
-#define NB_MAX_NODES 100
-#define NB_MAX_CONNECTIONS 100
-// let last layer the last layer of the nn and 0 the first layer
-#define INPUT_LAYER 0
-#define LAST_LAYER 3
 
 // reimplement array using linked list
-typedef struct node_t {
-    union {
-        neuron_t *neuron;
-        connection_t *conn;
-    };
-    node_t *next;
-} node_t;
-
-typedef struct connection {
-    uint32_t connection_id;
-    float_t weight;
-    neuron_t *start_neuron;
-    neuron_t *end_neuron;
-    uint32_t enabled;
-    uint32_t innov_id;
-} connection_t;
-
-typedef struct neuron_t {
-    uint32_t layer_idx;
-    uint32_t neuron_id;
-    uint32_t activation;
-    float_t sum_in;
-    float_t sum_out;
-} neuron_t;
 
 
 connection_t global_conn_stack[NB_MAX_NODES];
