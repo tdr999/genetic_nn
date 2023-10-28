@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\connections.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\genome.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\maths.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\neurons.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\nn.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FF1D148-0CBB-3E0B-9EB9-3047F4D6B106}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

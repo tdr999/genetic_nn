@@ -1,0 +1,3 @@
+C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/CMakeFiles/nn.dir
+C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/CMakeFiles/ZERO_CHECK.dir

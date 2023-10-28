@@ -1,0 +1,10 @@
+^C:\USERS\TUDOR_YTMDYRK\DESKTOP\GENETIC_NN\BUILD\CMAKEFILES\147D8F4A5AA98493900073F6CCD959F8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/tudor_ytmdyrk/Desktop/genetic_nn -BC:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/nn.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
