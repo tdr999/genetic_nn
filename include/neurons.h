@@ -10,4 +10,6 @@ typedef struct neuron_t {
     float_t sum_out;
 } neuron_t;
 
+enum {ADD_NODE, DELETE_NODE, DO_NOTHING_TO_NODE};
+
 #endif

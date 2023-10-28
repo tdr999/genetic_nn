@@ -111,3 +111,46 @@ void mutate_connection(genome_t *genome) {
             break;
     }
 }
+
+void add_node(genome_t *genome) {
+    // pick a possible node that does not exist yet
+}
+
+delete_node() {
+
+}
+
+uint32_t get_neuron_mutation() {
+    float_t value = (float_t)rand()/RAND_MAX;
+    if (value < ADD_NODE_CHANCE) {
+        return ADD_NODE;
+    }
+    if ((value >= ADD_NODE_CHANCE) && (value < DELETE_NODE_CHANCE)) {
+        return DELETE_NODE;
+    }
+    return DO_NOTHING_TO_NODE_CHANCE;
+}
+
+void mutate_neurons(genome_t *genome) {
+    // pick random connection
+    neuron_t *neuron;
+    while (1) {
+        uint32_t random_index = get_random_int(0, NB_MAX_NEURONS);
+        // dont touch input and output layer
+        if (genome->neurons[random_index].layer != INPUT_LAYER && genome->neurons[random_index].layer != LAST_LAYER) {
+            neuron = &genome->neurons[random_index];
+            break;
+        }
+    }
+
+    switch (get_neuron_mutation()){
+        case ADD_NODE:
+            add_node(genome);
+            break;
+        case DELETE_NODE:
+            delete_node(genome);
+            break;
+        case DO_NOTHING_TO_NODE:
+            break;
+    }
+}
