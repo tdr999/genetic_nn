@@ -1,0 +1,2 @@
+C:\msys64\ucrt64\bin\ar.exe qc libnn.a CMakeFiles/nn.dir/src/genome.c.obj CMakeFiles/nn.dir/src/maths.c.obj CMakeFiles/nn.dir/src/neurons.c.obj CMakeFiles/nn.dir/src/nn.c.obj
+C:\msys64\ucrt64\bin\ranlib.exe libnn.a

@@ -1,0 +1,27 @@
+[
+{
+  "directory": "C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/nn.dir/includes_C.rsp -g -o CMakeFiles\\nn.dir\\src\\genome.c.obj -c C:\\Users\\tudor_ytmdyrk\\Desktop\\genetic_nn\\src\\genome.c",
+  "file": "C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/src/genome.c"
+},
+{
+  "directory": "C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/nn.dir/includes_C.rsp -g -o CMakeFiles\\nn.dir\\src\\maths.c.obj -c C:\\Users\\tudor_ytmdyrk\\Desktop\\genetic_nn\\src\\maths.c",
+  "file": "C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/src/maths.c"
+},
+{
+  "directory": "C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/nn.dir/includes_C.rsp -g -o CMakeFiles\\nn.dir\\src\\neurons.c.obj -c C:\\Users\\tudor_ytmdyrk\\Desktop\\genetic_nn\\src\\neurons.c",
+  "file": "C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/src/neurons.c"
+},
+{
+  "directory": "C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/nn.dir/includes_C.rsp -g -o CMakeFiles\\nn.dir\\src\\nn.c.obj -c C:\\Users\\tudor_ytmdyrk\\Desktop\\genetic_nn\\src\\nn.c",
+  "file": "C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/src/nn.c"
+},
+{
+  "directory": "C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/tests",
+  "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/genome_tests.dir/includes_C.rsp -g -o CMakeFiles\\genome_tests.dir\\genome_tests.c.obj -c C:\\Users\\tudor_ytmdyrk\\Desktop\\genetic_nn\\tests\\genome_tests.c",
+  "file": "C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/tests/genome_tests.c"
+}
+]

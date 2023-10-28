@@ -1,3 +1,8 @@
 C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/CMakeFiles/nn.dir
-C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/CMakeFiles/test.dir
+C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/CMakeFiles/edit_cache.dir
+C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/CMakeFiles/rebuild_cache.dir
+C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/tests/CMakeFiles/genome_tests.dir
+C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/tests/CMakeFiles/test.dir
+C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/tests/CMakeFiles/edit_cache.dir
+C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/tests/CMakeFiles/rebuild_cache.dir

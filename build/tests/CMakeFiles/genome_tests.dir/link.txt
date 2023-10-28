@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\genome_tests.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\genome_tests.dir/objects.a @CMakeFiles\genome_tests.dir\objects1.rsp
+C:\msys64\ucrt64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\genome_tests.dir/objects.a -Wl,--no-whole-archive -o genome_tests.exe -Wl,--out-implib,libgenome_tests.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\genome_tests.dir\linklibs.rsp
