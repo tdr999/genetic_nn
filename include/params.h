@@ -27,5 +27,6 @@
 #define ADD_NODE_CHANCE 0.10f
 #define DELETE_NODE_CHANCE 0.20f
 #define DO_NOTHING_TO_NODE_CHANCE 0.30f
+#define NB_MAX_CON_INNO 500;
 
 #endif
