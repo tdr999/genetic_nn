@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "connections.h": "c"
+        "connections.h": "c",
+        "genome.h": "c",
+        "assert.h": "c"
     }
 }
