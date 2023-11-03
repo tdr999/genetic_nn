@@ -68,11 +68,86 @@ include tests/CMakeFiles/genome_tests.dir/progress.make
 # Include the compile flags for this target's objects.
 include tests/CMakeFiles/genome_tests.dir/flags.make
 
+tests/CMakeFiles/genome_tests.dir/__/src/dataset.c.obj: tests/CMakeFiles/genome_tests.dir/flags.make
+tests/CMakeFiles/genome_tests.dir/__/src/dataset.c.obj: tests/CMakeFiles/genome_tests.dir/includes_C.rsp
+tests/CMakeFiles/genome_tests.dir/__/src/dataset.c.obj: C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/src/dataset.c
+tests/CMakeFiles/genome_tests.dir/__/src/dataset.c.obj: tests/CMakeFiles/genome_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/genome_tests.dir/__/src/dataset.c.obj"
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/genome_tests.dir/__/src/dataset.c.obj -MF CMakeFiles\genome_tests.dir\__\src\dataset.c.obj.d -o CMakeFiles\genome_tests.dir\__\src\dataset.c.obj -c C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\dataset.c
+
+tests/CMakeFiles/genome_tests.dir/__/src/dataset.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/genome_tests.dir/__/src/dataset.c.i"
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\dataset.c > CMakeFiles\genome_tests.dir\__\src\dataset.c.i
+
+tests/CMakeFiles/genome_tests.dir/__/src/dataset.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/genome_tests.dir/__/src/dataset.c.s"
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\dataset.c -o CMakeFiles\genome_tests.dir\__\src\dataset.c.s
+
+tests/CMakeFiles/genome_tests.dir/__/src/genome.c.obj: tests/CMakeFiles/genome_tests.dir/flags.make
+tests/CMakeFiles/genome_tests.dir/__/src/genome.c.obj: tests/CMakeFiles/genome_tests.dir/includes_C.rsp
+tests/CMakeFiles/genome_tests.dir/__/src/genome.c.obj: C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/src/genome.c
+tests/CMakeFiles/genome_tests.dir/__/src/genome.c.obj: tests/CMakeFiles/genome_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object tests/CMakeFiles/genome_tests.dir/__/src/genome.c.obj"
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/genome_tests.dir/__/src/genome.c.obj -MF CMakeFiles\genome_tests.dir\__\src\genome.c.obj.d -o CMakeFiles\genome_tests.dir\__\src\genome.c.obj -c C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\genome.c
+
+tests/CMakeFiles/genome_tests.dir/__/src/genome.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/genome_tests.dir/__/src/genome.c.i"
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\genome.c > CMakeFiles\genome_tests.dir\__\src\genome.c.i
+
+tests/CMakeFiles/genome_tests.dir/__/src/genome.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/genome_tests.dir/__/src/genome.c.s"
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\genome.c -o CMakeFiles\genome_tests.dir\__\src\genome.c.s
+
+tests/CMakeFiles/genome_tests.dir/__/src/maths.c.obj: tests/CMakeFiles/genome_tests.dir/flags.make
+tests/CMakeFiles/genome_tests.dir/__/src/maths.c.obj: tests/CMakeFiles/genome_tests.dir/includes_C.rsp
+tests/CMakeFiles/genome_tests.dir/__/src/maths.c.obj: C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/src/maths.c
+tests/CMakeFiles/genome_tests.dir/__/src/maths.c.obj: tests/CMakeFiles/genome_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object tests/CMakeFiles/genome_tests.dir/__/src/maths.c.obj"
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/genome_tests.dir/__/src/maths.c.obj -MF CMakeFiles\genome_tests.dir\__\src\maths.c.obj.d -o CMakeFiles\genome_tests.dir\__\src\maths.c.obj -c C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\maths.c
+
+tests/CMakeFiles/genome_tests.dir/__/src/maths.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/genome_tests.dir/__/src/maths.c.i"
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\maths.c > CMakeFiles\genome_tests.dir\__\src\maths.c.i
+
+tests/CMakeFiles/genome_tests.dir/__/src/maths.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/genome_tests.dir/__/src/maths.c.s"
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\maths.c -o CMakeFiles\genome_tests.dir\__\src\maths.c.s
+
+tests/CMakeFiles/genome_tests.dir/__/src/neurons.c.obj: tests/CMakeFiles/genome_tests.dir/flags.make
+tests/CMakeFiles/genome_tests.dir/__/src/neurons.c.obj: tests/CMakeFiles/genome_tests.dir/includes_C.rsp
+tests/CMakeFiles/genome_tests.dir/__/src/neurons.c.obj: C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/src/neurons.c
+tests/CMakeFiles/genome_tests.dir/__/src/neurons.c.obj: tests/CMakeFiles/genome_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object tests/CMakeFiles/genome_tests.dir/__/src/neurons.c.obj"
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/genome_tests.dir/__/src/neurons.c.obj -MF CMakeFiles\genome_tests.dir\__\src\neurons.c.obj.d -o CMakeFiles\genome_tests.dir\__\src\neurons.c.obj -c C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\neurons.c
+
+tests/CMakeFiles/genome_tests.dir/__/src/neurons.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/genome_tests.dir/__/src/neurons.c.i"
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\neurons.c > CMakeFiles\genome_tests.dir\__\src\neurons.c.i
+
+tests/CMakeFiles/genome_tests.dir/__/src/neurons.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/genome_tests.dir/__/src/neurons.c.s"
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\neurons.c -o CMakeFiles\genome_tests.dir\__\src\neurons.c.s
+
+tests/CMakeFiles/genome_tests.dir/__/src/nn.c.obj: tests/CMakeFiles/genome_tests.dir/flags.make
+tests/CMakeFiles/genome_tests.dir/__/src/nn.c.obj: tests/CMakeFiles/genome_tests.dir/includes_C.rsp
+tests/CMakeFiles/genome_tests.dir/__/src/nn.c.obj: C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/src/nn.c
+tests/CMakeFiles/genome_tests.dir/__/src/nn.c.obj: tests/CMakeFiles/genome_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object tests/CMakeFiles/genome_tests.dir/__/src/nn.c.obj"
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/genome_tests.dir/__/src/nn.c.obj -MF CMakeFiles\genome_tests.dir\__\src\nn.c.obj.d -o CMakeFiles\genome_tests.dir\__\src\nn.c.obj -c C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\nn.c
+
+tests/CMakeFiles/genome_tests.dir/__/src/nn.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/genome_tests.dir/__/src/nn.c.i"
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\nn.c > CMakeFiles\genome_tests.dir\__\src\nn.c.i
+
+tests/CMakeFiles/genome_tests.dir/__/src/nn.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/genome_tests.dir/__/src/nn.c.s"
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\src\nn.c -o CMakeFiles\genome_tests.dir\__\src\nn.c.s
+
 tests/CMakeFiles/genome_tests.dir/genome_tests.c.obj: tests/CMakeFiles/genome_tests.dir/flags.make
 tests/CMakeFiles/genome_tests.dir/genome_tests.c.obj: tests/CMakeFiles/genome_tests.dir/includes_C.rsp
 tests/CMakeFiles/genome_tests.dir/genome_tests.c.obj: C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/tests/genome_tests.c
 tests/CMakeFiles/genome_tests.dir/genome_tests.c.obj: tests/CMakeFiles/genome_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object tests/CMakeFiles/genome_tests.dir/genome_tests.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object tests/CMakeFiles/genome_tests.dir/genome_tests.c.obj"
 	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT tests/CMakeFiles/genome_tests.dir/genome_tests.c.obj -MF CMakeFiles\genome_tests.dir\genome_tests.c.obj.d -o CMakeFiles\genome_tests.dir\genome_tests.c.obj -c C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\tests\genome_tests.c
 
 tests/CMakeFiles/genome_tests.dir/genome_tests.c.i: cmake_force
@@ -85,17 +160,27 @@ tests/CMakeFiles/genome_tests.dir/genome_tests.c.s: cmake_force
 
 # Object files for target genome_tests
 genome_tests_OBJECTS = \
+"CMakeFiles/genome_tests.dir/__/src/dataset.c.obj" \
+"CMakeFiles/genome_tests.dir/__/src/genome.c.obj" \
+"CMakeFiles/genome_tests.dir/__/src/maths.c.obj" \
+"CMakeFiles/genome_tests.dir/__/src/neurons.c.obj" \
+"CMakeFiles/genome_tests.dir/__/src/nn.c.obj" \
 "CMakeFiles/genome_tests.dir/genome_tests.c.obj"
 
 # External object files for target genome_tests
 genome_tests_EXTERNAL_OBJECTS =
 
+tests/genome_tests.exe: tests/CMakeFiles/genome_tests.dir/__/src/dataset.c.obj
+tests/genome_tests.exe: tests/CMakeFiles/genome_tests.dir/__/src/genome.c.obj
+tests/genome_tests.exe: tests/CMakeFiles/genome_tests.dir/__/src/maths.c.obj
+tests/genome_tests.exe: tests/CMakeFiles/genome_tests.dir/__/src/neurons.c.obj
+tests/genome_tests.exe: tests/CMakeFiles/genome_tests.dir/__/src/nn.c.obj
 tests/genome_tests.exe: tests/CMakeFiles/genome_tests.dir/genome_tests.c.obj
 tests/genome_tests.exe: tests/CMakeFiles/genome_tests.dir/build.make
 tests/genome_tests.exe: tests/CMakeFiles/genome_tests.dir/linklibs.rsp
 tests/genome_tests.exe: tests/CMakeFiles/genome_tests.dir/objects1.rsp
 tests/genome_tests.exe: tests/CMakeFiles/genome_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable genome_tests.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable genome_tests.exe"
 	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\genome_tests.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

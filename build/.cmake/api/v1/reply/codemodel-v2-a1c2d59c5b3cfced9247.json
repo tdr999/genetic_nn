@@ -60,15 +60,15 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "genome_tests::@a44f0ac069e85531cdee",
-					"jsonFile" : "target-genome_tests-Debug-2291485c01b89f67e8ef.json",
+					"jsonFile" : "target-genome_tests-Debug-48caeb507e24457b93f9.json",
 					"name" : "genome_tests",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "nn::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-nn-Debug-bf87839f9f7381afe0a1.json",
-					"name" : "nn",
+					"id" : "neat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-neat-Debug-acb76a9f984caaf223e6.json",
+					"name" : "neat",
 					"projectIndex" : 0
 				}
 			]

@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/nn.dir/all
+all: CMakeFiles/neat.dir/all
 all: tests/all
 .PHONY : all
 
@@ -71,7 +71,7 @@ preinstall: tests/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/nn.dir/clean
+clean: CMakeFiles/neat.dir/clean
 clean: tests/clean
 .PHONY : clean
 
@@ -91,30 +91,30 @@ tests/clean: tests/CMakeFiles/genome_tests.dir/clean
 .PHONY : tests/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/nn.dir
+# Target rules for target CMakeFiles/neat.dir
 
 # All Build rule for target.
-CMakeFiles/nn.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles --progress-num=3,4,5,6,7 "Built target nn"
-.PHONY : CMakeFiles/nn.dir/all
+CMakeFiles/neat.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles --progress-num=8,9,10,11,12,13,14 "Built target neat"
+.PHONY : CMakeFiles/neat.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/nn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/nn.dir/all
+CMakeFiles/neat.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles 7
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/neat.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles 0
-.PHONY : CMakeFiles/nn.dir/rule
+.PHONY : CMakeFiles/neat.dir/rule
 
 # Convenience name for target.
-nn: CMakeFiles/nn.dir/rule
-.PHONY : nn
+neat: CMakeFiles/neat.dir/rule
+.PHONY : neat
 
 # clean rule for target.
-CMakeFiles/nn.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/clean
-.PHONY : CMakeFiles/nn.dir/clean
+CMakeFiles/neat.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/clean
+.PHONY : CMakeFiles/neat.dir/clean
 
 #=============================================================================
 # Target rules for target tests/CMakeFiles/genome_tests.dir
@@ -123,12 +123,12 @@ CMakeFiles/nn.dir/clean:
 tests/CMakeFiles/genome_tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles --progress-num=1,2 "Built target genome_tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target genome_tests"
 .PHONY : tests/CMakeFiles/genome_tests.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/genome_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 tests/CMakeFiles/genome_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build\CMakeFiles 0
 .PHONY : tests/CMakeFiles/genome_tests.dir/rule

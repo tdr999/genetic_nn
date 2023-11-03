@@ -2,10 +2,12 @@
 #include "genome.h"
 #include "maths.h"
 #include "params.h"
+#include <math.h>
 
 
 global_neuron_innovation_t neur_inno;
 global_conn_innovation_t conn_innov;
+
 
 uint32_t get_conn_inno(uint32_t id1, uint32_t id2) {
     uint32_t ii;
@@ -150,6 +152,17 @@ void mutate_connection(genome_t *genome) {
     }
 }
 
+
+void init_add_node(genome_t *genome, uint32_t id, uint32_t layer) {
+
+    // found elligible new neuron position
+    uint32_t inno = get_neur_inno(id);
+    genome->neurons[id].neuron_id = id;
+    genome->neurons[id].layer = layer;
+    genome->neuro_stack_top++;
+}
+
+
 void add_node(genome_t *genome) {
     // pick a possible node that does not exist yet
     uint32_t i;
@@ -207,4 +220,64 @@ void mutate_neurons(genome_t *genome) {
         case DO_NOTHING_TO_NODE:
             break;
     }
+}
+
+int16_t comp_genomes(const genome_t *g1, const genome_t *g2) {
+
+    if (g1->fitness < g2->fitness) return -1;
+    if (g1->fitness > g2->fitness) return 1;
+    return 0;
+}
+
+
+void init_genome(genome_t *genome) {
+
+    memset(genome, 0, sizeof(genome_t));
+    uint32_t ii;
+    for (ii = 0; ii < NB_INPUT_NEURONS; ii++) {
+        init_add_node(genome, ii, INPUT_LAYER);
+    }
+    for (; ii < NB_INPUT_NEURONS + NB_OUTPUT_NEURONS; ii++) {
+        init_add_node(genome, ii, LAST_LAYER);
+    }
+}
+
+float_t sigmoid(float_t nr) {
+    return (1 / (1 + powf(2.718, -nr)));
+}
+
+genome_feed_forward(genome_t *genome) {
+    // o sa facem ceva super big brain dar stupid in acelasi timp
+    uint32_t layer_counter;
+    for (layer_counter = INPUT_LAYER; layer_counter <= LAST_LAYER; layer_counter++) {
+
+        // si luam acuma fiecare neuron, imi pare rau, stiu
+        uint32_t ii;
+        for (ii = 0; ii < genome->neuro_stack_top; ii++) {
+            neuron_t *neur = &genome->neurons[ii];
+
+            if (neur->layer == layer_counter) {
+                // si acuma luam fiecare weight, oh my God
+                uint32_t jj;
+                for (jj = 0; jj < genome->conn_counter; jj++) {
+                    connection_t *conn = &genome->conns[jj];
+                    if (conn->end_neuron->neuron_id == neur->neuron_id) {
+
+                        neur->sum_in += conn->weight * conn->start_neuron->sum_out;
+                    }
+                }
+
+                neur->sum_out = sigmoid(neur->sum_in);
+            }
+
+        }
+    }
+}
+
+evaluate_genome(genome, dataset) {
+    uint32_t ii;
+    for (ii = 0; ii < 150; ii++) {
+        
+    }
+
 }

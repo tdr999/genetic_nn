@@ -139,6 +139,126 @@ genome_tests/fast:
 	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/build
 .PHONY : genome_tests/fast
 
+__/src/dataset.obj: __/src/dataset.c.obj
+.PHONY : __/src/dataset.obj
+
+# target to build an object file
+__/src/dataset.c.obj:
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/__/src/dataset.c.obj
+.PHONY : __/src/dataset.c.obj
+
+__/src/dataset.i: __/src/dataset.c.i
+.PHONY : __/src/dataset.i
+
+# target to preprocess a source file
+__/src/dataset.c.i:
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/__/src/dataset.c.i
+.PHONY : __/src/dataset.c.i
+
+__/src/dataset.s: __/src/dataset.c.s
+.PHONY : __/src/dataset.s
+
+# target to generate assembly for a file
+__/src/dataset.c.s:
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/__/src/dataset.c.s
+.PHONY : __/src/dataset.c.s
+
+__/src/genome.obj: __/src/genome.c.obj
+.PHONY : __/src/genome.obj
+
+# target to build an object file
+__/src/genome.c.obj:
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/__/src/genome.c.obj
+.PHONY : __/src/genome.c.obj
+
+__/src/genome.i: __/src/genome.c.i
+.PHONY : __/src/genome.i
+
+# target to preprocess a source file
+__/src/genome.c.i:
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/__/src/genome.c.i
+.PHONY : __/src/genome.c.i
+
+__/src/genome.s: __/src/genome.c.s
+.PHONY : __/src/genome.s
+
+# target to generate assembly for a file
+__/src/genome.c.s:
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/__/src/genome.c.s
+.PHONY : __/src/genome.c.s
+
+__/src/maths.obj: __/src/maths.c.obj
+.PHONY : __/src/maths.obj
+
+# target to build an object file
+__/src/maths.c.obj:
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/__/src/maths.c.obj
+.PHONY : __/src/maths.c.obj
+
+__/src/maths.i: __/src/maths.c.i
+.PHONY : __/src/maths.i
+
+# target to preprocess a source file
+__/src/maths.c.i:
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/__/src/maths.c.i
+.PHONY : __/src/maths.c.i
+
+__/src/maths.s: __/src/maths.c.s
+.PHONY : __/src/maths.s
+
+# target to generate assembly for a file
+__/src/maths.c.s:
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/__/src/maths.c.s
+.PHONY : __/src/maths.c.s
+
+__/src/neurons.obj: __/src/neurons.c.obj
+.PHONY : __/src/neurons.obj
+
+# target to build an object file
+__/src/neurons.c.obj:
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/__/src/neurons.c.obj
+.PHONY : __/src/neurons.c.obj
+
+__/src/neurons.i: __/src/neurons.c.i
+.PHONY : __/src/neurons.i
+
+# target to preprocess a source file
+__/src/neurons.c.i:
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/__/src/neurons.c.i
+.PHONY : __/src/neurons.c.i
+
+__/src/neurons.s: __/src/neurons.c.s
+.PHONY : __/src/neurons.s
+
+# target to generate assembly for a file
+__/src/neurons.c.s:
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/__/src/neurons.c.s
+.PHONY : __/src/neurons.c.s
+
+__/src/nn.obj: __/src/nn.c.obj
+.PHONY : __/src/nn.obj
+
+# target to build an object file
+__/src/nn.c.obj:
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/__/src/nn.c.obj
+.PHONY : __/src/nn.c.obj
+
+__/src/nn.i: __/src/nn.c.i
+.PHONY : __/src/nn.i
+
+# target to preprocess a source file
+__/src/nn.c.i:
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/__/src/nn.c.i
+.PHONY : __/src/nn.c.i
+
+__/src/nn.s: __/src/nn.c.s
+.PHONY : __/src/nn.s
+
+# target to generate assembly for a file
+__/src/nn.c.s:
+	cd /d C:\Users\tudor_ytmdyrk\Desktop\genetic_nn\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/__/src/nn.c.s
+.PHONY : __/src/nn.c.s
+
 genome_tests.obj: genome_tests.c.obj
 .PHONY : genome_tests.obj
 
@@ -173,6 +293,21 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... genome_tests
+	@echo ... __/src/dataset.obj
+	@echo ... __/src/dataset.i
+	@echo ... __/src/dataset.s
+	@echo ... __/src/genome.obj
+	@echo ... __/src/genome.i
+	@echo ... __/src/genome.s
+	@echo ... __/src/maths.obj
+	@echo ... __/src/maths.i
+	@echo ... __/src/maths.s
+	@echo ... __/src/neurons.obj
+	@echo ... __/src/neurons.i
+	@echo ... __/src/neurons.s
+	@echo ... __/src/nn.obj
+	@echo ... __/src/nn.i
+	@echo ... __/src/nn.s
 	@echo ... genome_tests.obj
 	@echo ... genome_tests.i
 	@echo ... genome_tests.s

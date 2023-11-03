@@ -2,6 +2,7 @@
     "files.associations": {
         "connections.h": "c",
         "genome.h": "c",
-        "assert.h": "c"
+        "assert.h": "c",
+        "population.h": "c"
     }
 }

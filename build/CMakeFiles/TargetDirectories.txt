@@ -1,4 +1,4 @@
-C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/CMakeFiles/nn.dir
+C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/CMakeFiles/neat.dir
 C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/CMakeFiles/test.dir
 C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/CMakeFiles/edit_cache.dir
 C:/Users/tudor_ytmdyrk/Desktop/genetic_nn/build/CMakeFiles/rebuild_cache.dir

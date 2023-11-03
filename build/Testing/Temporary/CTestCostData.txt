@@ -1,4 +1,4 @@
 genome_test 0 0
-genome 3 0.023589
+genome 4 0.02507
 genome2 2 0.0105178
 ---

@@ -50,6 +50,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/nn.dir/DependInfo.cmake"
+  "CMakeFiles/neat.dir/DependInfo.cmake"
   "tests/CMakeFiles/genome_tests.dir/DependInfo.cmake"
   )

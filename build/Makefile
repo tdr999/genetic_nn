@@ -126,17 +126,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named nn
+# Target rules for targets named neat
 
 # Build rule for target.
-nn: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 nn
-.PHONY : nn
+neat: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 neat
+.PHONY : neat
 
 # fast build rule for target.
-nn/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/build
-.PHONY : nn/fast
+neat/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/build
+.PHONY : neat/fast
 
 #=============================================================================
 # Target rules for targets named genome_tests
@@ -151,12 +151,60 @@ genome_tests/fast:
 	$(MAKE) $(MAKESILENT) -f tests\CMakeFiles\genome_tests.dir\build.make tests/CMakeFiles/genome_tests.dir/build
 .PHONY : genome_tests/fast
 
+main.obj: main.c.obj
+.PHONY : main.obj
+
+# target to build an object file
+main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/main.c.obj
+.PHONY : main.c.obj
+
+main.i: main.c.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/main.c.s
+.PHONY : main.c.s
+
+src/dataset.obj: src/dataset.c.obj
+.PHONY : src/dataset.obj
+
+# target to build an object file
+src/dataset.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/src/dataset.c.obj
+.PHONY : src/dataset.c.obj
+
+src/dataset.i: src/dataset.c.i
+.PHONY : src/dataset.i
+
+# target to preprocess a source file
+src/dataset.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/src/dataset.c.i
+.PHONY : src/dataset.c.i
+
+src/dataset.s: src/dataset.c.s
+.PHONY : src/dataset.s
+
+# target to generate assembly for a file
+src/dataset.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/src/dataset.c.s
+.PHONY : src/dataset.c.s
+
 src/genome.obj: src/genome.c.obj
 .PHONY : src/genome.obj
 
 # target to build an object file
 src/genome.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/src/genome.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/src/genome.c.obj
 .PHONY : src/genome.c.obj
 
 src/genome.i: src/genome.c.i
@@ -164,7 +212,7 @@ src/genome.i: src/genome.c.i
 
 # target to preprocess a source file
 src/genome.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/src/genome.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/src/genome.c.i
 .PHONY : src/genome.c.i
 
 src/genome.s: src/genome.c.s
@@ -172,7 +220,7 @@ src/genome.s: src/genome.c.s
 
 # target to generate assembly for a file
 src/genome.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/src/genome.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/src/genome.c.s
 .PHONY : src/genome.c.s
 
 src/maths.obj: src/maths.c.obj
@@ -180,7 +228,7 @@ src/maths.obj: src/maths.c.obj
 
 # target to build an object file
 src/maths.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/src/maths.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/src/maths.c.obj
 .PHONY : src/maths.c.obj
 
 src/maths.i: src/maths.c.i
@@ -188,7 +236,7 @@ src/maths.i: src/maths.c.i
 
 # target to preprocess a source file
 src/maths.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/src/maths.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/src/maths.c.i
 .PHONY : src/maths.c.i
 
 src/maths.s: src/maths.c.s
@@ -196,7 +244,7 @@ src/maths.s: src/maths.c.s
 
 # target to generate assembly for a file
 src/maths.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/src/maths.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/src/maths.c.s
 .PHONY : src/maths.c.s
 
 src/neurons.obj: src/neurons.c.obj
@@ -204,7 +252,7 @@ src/neurons.obj: src/neurons.c.obj
 
 # target to build an object file
 src/neurons.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/src/neurons.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/src/neurons.c.obj
 .PHONY : src/neurons.c.obj
 
 src/neurons.i: src/neurons.c.i
@@ -212,7 +260,7 @@ src/neurons.i: src/neurons.c.i
 
 # target to preprocess a source file
 src/neurons.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/src/neurons.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/src/neurons.c.i
 .PHONY : src/neurons.c.i
 
 src/neurons.s: src/neurons.c.s
@@ -220,7 +268,7 @@ src/neurons.s: src/neurons.c.s
 
 # target to generate assembly for a file
 src/neurons.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/src/neurons.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/src/neurons.c.s
 .PHONY : src/neurons.c.s
 
 src/nn.obj: src/nn.c.obj
@@ -228,7 +276,7 @@ src/nn.obj: src/nn.c.obj
 
 # target to build an object file
 src/nn.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/src/nn.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/src/nn.c.obj
 .PHONY : src/nn.c.obj
 
 src/nn.i: src/nn.c.i
@@ -236,7 +284,7 @@ src/nn.i: src/nn.c.i
 
 # target to preprocess a source file
 src/nn.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/src/nn.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/src/nn.c.i
 .PHONY : src/nn.c.i
 
 src/nn.s: src/nn.c.s
@@ -244,7 +292,7 @@ src/nn.s: src/nn.c.s
 
 # target to generate assembly for a file
 src/nn.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\nn.dir\build.make CMakeFiles/nn.dir/src/nn.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\neat.dir\build.make CMakeFiles/neat.dir/src/nn.c.s
 .PHONY : src/nn.c.s
 
 # Help Target
@@ -257,7 +305,13 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... genome_tests
-	@echo ... nn
+	@echo ... neat
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
+	@echo ... src/dataset.obj
+	@echo ... src/dataset.i
+	@echo ... src/dataset.s
 	@echo ... src/genome.obj
 	@echo ... src/genome.i
 	@echo ... src/genome.s

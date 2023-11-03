@@ -1,9 +1,10 @@
-#include "genome.h"
+// #include "genome.h"
+// #include "dataset.h"
 
 
 // int main() {
-//     genome_t genome;
-//     add_node(&genome);
+//     datapoint_t dataset[150];
+//     read_dataset(dataset);
 //     return 0;
 
 // }
